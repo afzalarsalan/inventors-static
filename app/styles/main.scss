@@ -21,11 +21,77 @@ body {
 
 .swiper-container {
   width: 100%;
-  height: 300px;
+  height: 500px;
 }
 
 .profile-circle {
   border-radius:50% 50% 50% 50%;
   width: 64px;
   height: 64px;
+}
+
+.profile-about-circle {
+  border-radius:50% 50% 50% 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.mdl-demo section .section__circle-container > .section__circle-container__circle-big {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 10px 0;
+}
+
+#lorem1 {
+  margin-bottom: 10px;
+}
+
+.profile__text {
+  padding-bottom: 8px;
+  line-height: 2;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+#signup-form {
+  width: 100%;
+}
+
+.slider-container {
+  margin-left: -20px;
+}
+
+.grade-container {
+  display: inline-block;
+}
+
+#slider-grade-value {
+  margin-left: 47%;
+  width: 100%;
+}
+
+.interest-options {
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+#emailbox {
+  width: 100%;
+}
+
+#submit-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.big-button {
+  height: auto;
+  width: 150px;
+}
+
+.profiled-image{
+  width: 100% !important;
 }
