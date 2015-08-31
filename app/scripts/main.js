@@ -1,10 +1,11 @@
-console.log('\'Allo \'Allo!');
-
 $(document).ready(function() {
     //initialize swiper when document ready  
     var mySwiper = new Swiper('.swiper-container', {
         // Optional parameters
-        loop: true
+        loop: true,
+        preloadImages: false,
+        lazyLoading: true,
+        autoplay: 4000
     })
     document.getElementById("grade-level").addEventListener("change", gradeChange);
     document.getElementById("slider-grade-value").value = 10;
