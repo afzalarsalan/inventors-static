@@ -21,7 +21,8 @@ body {
 
 .swiper-container {
   width: 100%;
-  height: 500px;
+  /*height: 500px;*/
+  max-height: 500px;
 }
 
 .profile-circle {
@@ -65,7 +66,7 @@ body {
 }
 
 .grade-container {
-  display: inline-block;
+  display: block;
 }
 
 #slider-grade-value {
@@ -94,4 +95,8 @@ body {
 
 .profiled-image{
   width: 100% !important;
+}
+
+#carousel-container {
+  display: none;
 }
